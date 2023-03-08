@@ -39,7 +39,7 @@ label {
 }
 
 .button:hover {
-  background-color: #04050ba3; /* Green */
+  background-color: #04050ba3;
   color: rgba(255, 255, 255);
 }
 
