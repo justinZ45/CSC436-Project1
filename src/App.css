@@ -34,7 +34,7 @@ label {
 }
 .button {
   transition-duration: 5s;
-  background-color: #555555;
+  background-color: #555555; 
   color: white;
 }
 
