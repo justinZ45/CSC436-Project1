@@ -1,0 +1,52 @@
+p {
+  text-align: center;
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+.button {
+  transition-duration: 5s;
+  background-color: #555555;
+  color: white;
+}
+
+.button:hover {
+  background-color: #04050ba3; /* Green */
+  color: rgba(255, 255, 255);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background-color: rgba(20, 56, 115, 0.678);
+}
